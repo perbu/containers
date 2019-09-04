@@ -1,0 +1,6 @@
+#!/bin/sh
+
+TARGET=$1
+echo Updateing Clamav
+freshclam
+clamscan -v $TARGET
